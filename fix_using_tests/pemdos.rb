@@ -5,7 +5,7 @@ def snake_it_up(string)
     10.times do
       repeat = repeat + "s"
     end
-    print string
+    repeat + string
   else
     string
   end
