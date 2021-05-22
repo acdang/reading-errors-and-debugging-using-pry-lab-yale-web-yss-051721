@@ -3,12 +3,12 @@
 def snake_it_up(string)
   if string[0] == "s"
     10.times do
-      repeat = repeat + "s"
+      "s"
     end
-    repeat + string
+    string
   else
     string
   end
 end
 
-snake_it_up("surprise!")
+snake_it_up(string)
